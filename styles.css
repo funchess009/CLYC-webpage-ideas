@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333; /* Darker text for readability */
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Bright green header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#logo {
+    max-width: 150px;
+}
+
+/* Section styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #4CAF50; /* Consistent green for headings */
+}
+
+#group-photo {
+    text-align: center;
+}
+
+#group {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Bio section styles */
+.bio {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #e8f5e9; /* Light green background for bios */
+    border-left: 5px solid #4CAF50; /* Green left border */
+    border-radius: 5px;
+}
+
+/* Dropdown styles */
+details {
+    margin: 10px 0;
+}
+
+summary {
+    cursor: pointer;
+    background: #4CAF50; /* Green background for dropdowns */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+summary:hover {
+    background: #45a049; /* Darker green on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50; /* Match header */
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    section {
+        padding: 15px;
+    }
+    
+    #logo {
+        max-width: 120px; /* Smaller logo for mobile */
+    }
+}
+/* About Us container */
+/* About Us container */
+#about-us {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space out logo and text */
+    margin: 20px auto; /* Center the container */
+    max-width: 1200px; /* Set a max width for the layout (same as other sections) */
+    padding: 20px; /* Add padding for inner spacing */
+    background: white; /* Optional: add background color */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+/* Logo styles */
+#about-logo {
+    flex: 1; /* Allow the logo section to grow */
+    text-align: center; /* Center the logo */
+}
+
+#logo {
+    max-width: 150px; /* Set a max width for the logo */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+
+/* About text styles */
+#about-text {
+    flex: 2; /* Allow the text section to take up more space */
+    padding-left: 20px; /* Add some space between the logo and text */
+}
+
+#about-text h2 {
+    color: #4CAF50; /* Match the theme color */
+}
+
+#about-text p {
+    margin-bottom: 10px; /* Space between paragraphs */
+}
