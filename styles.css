@@ -1,0 +1,176 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Slightly lighter for a clean look */
+    color: #333; /* Darker text for readability */
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Bright green header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#logo {
+    max-width: 150px;
+}
+
+/* Section styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px; /* Slightly more rounded corners for modern feel */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1, h2, h3 {
+    color: #4CAF50; /* Consistent green for headings */
+}
+
+/* Group photo styles */
+#group-photo {
+    text-align: center;
+}
+
+#group {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* Bio section styles */
+.bio {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #e8f5e9; /* Light green background for bios */
+    border-left: 6px solid #4CAF50; /* Green left border */
+    border-radius: 8px; /* Rounded corners for bio cards */
+}
+
+.bio h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    margin: 0;
+}
+
+/* Dropdown styles */
+details {
+    margin: 10px 0;
+    background: #f1f8e9; /* Softer green for dropdown background */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+summary {
+    cursor: pointer;
+    background: #4CAF50; /* Green background for dropdowns */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+summary:hover {
+    background: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+details p, details ul {
+    padding: 10px 15px;
+    color: #555; /* Softer color for dropdown content */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50; /* Match header */
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    section {
+        padding: 15px;
+    }
+    
+    #logo {
+        max-width: 120px; /* Smaller logo for mobile */
+    }
+    
+    #about-us {
+        flex-direction: column; /* Stack logo and text on smaller screens */
+        text-align: center;
+    }
+
+    #about-text {
+        padding-left: 0;
+    }
+}
+
+/* About Us section */
+#about-us {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space out logo and text */
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#about-logo {
+    flex: 1;
+    text-align: center;
+}
+
+#logo {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+#about-text {
+    flex: 2;
+    padding-left: 20px;
+}
+
+#about-text h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+#about-text p {
+    margin-bottom: 10px;
+}
+
+/* Lists for dropdowns */
+details ul {
+    list-style-type: disc;
+    margin: 10px 0 0 20px; /* Add indentation for bullets */
+    padding: 0;
+}
+
+details li {
+    margin-bottom: 5px;
+}
